@@ -7,25 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		662E14532CCF7F2B0080DA10 /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662E14522CCF7F2B0080DA10 /* ToggleTableViewCell.swift */; };
+		662FECE62CDCA33400FC435D /* PasscodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662FECE52CDCA33400FC435D /* PasscodeViewController.swift */; };
 		663FE1FC2CC239D300208A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663FE1FB2CC239D300208A45 /* AppDelegate.swift */; };
 		663FE1FE2CC239D300208A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663FE1FD2CC239D300208A45 /* SceneDelegate.swift */; };
-		663FE2002CC239D300208A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663FE1FF2CC239D300208A45 /* ViewController.swift */; };
+		663FE2002CC239D300208A45 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 663FE1FF2CC239D300208A45 /* HomeViewController.swift */; };
 		663FE2032CC239D300208A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663FE2012CC239D300208A45 /* Main.storyboard */; };
 		663FE2062CC239D300208A45 /* Lock_Folder_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 663FE2042CC239D300208A45 /* Lock_Folder_App.xcdatamodeld */; };
 		663FE2082CC239D600208A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 663FE2072CC239D600208A45 /* Assets.xcassets */; };
 		663FE20B2CC239D600208A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663FE2092CC239D600208A45 /* LaunchScreen.storyboard */; };
+		6650615F2CCA83CB00440153 /* Folder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6650615B2CCA83CB00440153 /* Folder+CoreDataClass.swift */; };
+		665061602CCA83CB00440153 /* Folder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6650615C2CCA83CB00440153 /* Folder+CoreDataProperties.swift */; };
+		665061632CCA850600440153 /* Files+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665061612CCA850600440153 /* Files+CoreDataClass.swift */; };
+		665061642CCA850600440153 /* Files+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665061622CCA850600440153 /* Files+CoreDataProperties.swift */; };
+		665061672CCA8CA300440153 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665061662CCA8CA300440153 /* UIHelper.swift */; };
+		6681C87D2CCA3160004401C1 /* ShowMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681C87C2CCA3160004401C1 /* ShowMediaViewController.swift */; };
+		6681C87F2CCA32F4004401C1 /* ShowMediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681C87E2CCA32F4004401C1 /* ShowMediaCell.swift */; };
+		6691E6E62CC4E6D200A68FA0 /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6691E6E52CC4E6D200A68FA0 /* PersistanceManager.swift */; };
+		66AE5AD22CCF680F000D2F4A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66AE5AD12CCF680F000D2F4A /* SettingsViewController.swift */; };
+		66B7CA4F2CC50D640063D97A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7CA4E2CC50D640063D97A /* DetailViewController.swift */; };
+		66B7CA512CC510540063D97A /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B7CA502CC510540063D97A /* DetailCell.swift */; };
+		66C54FE32CCE4D480083060B /* LockScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C54FE22CCE4D480083060B /* LockScreenViewController.swift */; };
+		66D5EDD52CC7A45D0056F5EF /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D5EDD42CC7A45D0056F5EF /* CustomBtn.swift */; };
+		66EF1B732CCCF88900A26452 /* ViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF1B722CCCF88900A26452 /* ViewController+Ext.swift */; };
+		66FB6D4A2CC54F1800CE4B7F /* AddFolderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB6D492CC54F1800CE4B7F /* AddFolderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		662E14522CCF7F2B0080DA10 /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
+		662FECE52CDCA33400FC435D /* PasscodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeViewController.swift; sourceTree = "<group>"; };
 		663FE1F82CC239D300208A45 /* Lock-Folder-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lock-Folder-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		663FE1FB2CC239D300208A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		663FE1FD2CC239D300208A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		663FE1FF2CC239D300208A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		663FE1FF2CC239D300208A45 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		663FE2022CC239D300208A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		663FE2052CC239D300208A45 /* Lock_Folder_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lock_Folder_App.xcdatamodel; sourceTree = "<group>"; };
 		663FE2072CC239D600208A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		663FE20A2CC239D600208A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		663FE20C2CC239D600208A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6650615B2CCA83CB00440153 /* Folder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Folder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		6650615C2CCA83CB00440153 /* Folder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Folder+CoreDataProperties.swift"; path = "../../Folder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		665061612CCA850600440153 /* Files+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Files+CoreDataClass.swift"; path = "../../Files+CoreDataClass.swift"; sourceTree = "<group>"; };
+		665061622CCA850600440153 /* Files+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Files+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		665061662CCA8CA300440153 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		6681C87C2CCA3160004401C1 /* ShowMediaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMediaViewController.swift; sourceTree = "<group>"; };
+		6681C87E2CCA32F4004401C1 /* ShowMediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMediaCell.swift; sourceTree = "<group>"; };
+		6691E6E52CC4E6D200A68FA0 /* PersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		66AE5AD12CCF680F000D2F4A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		66B7CA4E2CC50D640063D97A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		66B7CA502CC510540063D97A /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		66C54FE22CCE4D480083060B /* LockScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockScreenViewController.swift; sourceTree = "<group>"; };
+		66D5EDD42CC7A45D0056F5EF /* CustomBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
+		66EF1B722CCCF88900A26452 /* ViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Ext.swift"; sourceTree = "<group>"; };
+		66FB6D492CC54F1800CE4B7F /* AddFolderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFolderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +92,113 @@
 		663FE1FA2CC239D300208A45 /* Lock-Folder-App */ = {
 			isa = PBXGroup;
 			children = (
-				663FE1FB2CC239D300208A45 /* AppDelegate.swift */,
-				663FE1FD2CC239D300208A45 /* SceneDelegate.swift */,
-				663FE1FF2CC239D300208A45 /* ViewController.swift */,
-				663FE2012CC239D300208A45 /* Main.storyboard */,
+				66EF1B712CCCF86100A26452 /* Extentions */,
+				665061652CCA8C8A00440153 /* Helper */,
+				66FB6D472CC54EB700CE4B7F /* CustomItems */,
+				6691E6E42CC4E69000A68FA0 /* Manager */,
+				6691E6E12CC4E5F400A68FA0 /* Delegates */,
+				6691E6E32CC4E62F00A68FA0 /* ViewControllers */,
+				6691E6E22CC4E60B00A68FA0 /* StoryBoards */,
 				663FE2072CC239D600208A45 /* Assets.xcassets */,
-				663FE2092CC239D600208A45 /* LaunchScreen.storyboard */,
 				663FE20C2CC239D600208A45 /* Info.plist */,
 				663FE2042CC239D300208A45 /* Lock_Folder_App.xcdatamodeld */,
+				6691E6E02CC4E5B500A68FA0 /* CoreDataFiles */,
 			);
 			path = "Lock-Folder-App";
+			sourceTree = "<group>";
+		};
+		665061652CCA8C8A00440153 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				665061662CCA8CA300440153 /* UIHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6691E6E02CC4E5B500A68FA0 /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				6650615B2CCA83CB00440153 /* Folder+CoreDataClass.swift */,
+				6650615C2CCA83CB00440153 /* Folder+CoreDataProperties.swift */,
+				665061612CCA850600440153 /* Files+CoreDataClass.swift */,
+				665061622CCA850600440153 /* Files+CoreDataProperties.swift */,
+			);
+			path = CoreDataFiles;
+			sourceTree = "<group>";
+		};
+		6691E6E12CC4E5F400A68FA0 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				663FE1FB2CC239D300208A45 /* AppDelegate.swift */,
+				663FE1FD2CC239D300208A45 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		6691E6E22CC4E60B00A68FA0 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				663FE2012CC239D300208A45 /* Main.storyboard */,
+				663FE2092CC239D600208A45 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		6691E6E32CC4E62F00A68FA0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				663FE1FF2CC239D300208A45 /* HomeViewController.swift */,
+				66B7CA4E2CC50D640063D97A /* DetailViewController.swift */,
+				66FB6D492CC54F1800CE4B7F /* AddFolderViewController.swift */,
+				6681C87C2CCA3160004401C1 /* ShowMediaViewController.swift */,
+				66C54FE22CCE4D480083060B /* LockScreenViewController.swift */,
+				66AE5AD12CCF680F000D2F4A /* SettingsViewController.swift */,
+				662FECE52CDCA33400FC435D /* PasscodeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6691E6E42CC4E69000A68FA0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				6691E6E52CC4E6D200A68FA0 /* PersistanceManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		66D5EDD32CC7A4380056F5EF /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				66D5EDD42CC7A45D0056F5EF /* CustomBtn.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		66EF1B712CCCF86100A26452 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				66EF1B722CCCF88900A26452 /* ViewController+Ext.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		66FB6D472CC54EB700CE4B7F /* CustomItems */ = {
+			isa = PBXGroup;
+			children = (
+				66D5EDD32CC7A4380056F5EF /* Buttons */,
+				66FB6D482CC54EC600CE4B7F /* Cells */,
+			);
+			path = CustomItems;
+			sourceTree = "<group>";
+		};
+		66FB6D482CC54EC600CE4B7F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				66B7CA502CC510540063D97A /* DetailCell.swift */,
+				6681C87E2CCA32F4004401C1 /* ShowMediaCell.swift */,
+				662E14522CCF7F2B0080DA10 /* ToggleTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +272,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66FB6D4A2CC54F1800CE4B7F /* AddFolderViewController.swift in Sources */,
+				6650615F2CCA83CB00440153 /* Folder+CoreDataClass.swift in Sources */,
 				663FE2062CC239D300208A45 /* Lock_Folder_App.xcdatamodeld in Sources */,
-				663FE2002CC239D300208A45 /* ViewController.swift in Sources */,
+				66D5EDD52CC7A45D0056F5EF /* CustomBtn.swift in Sources */,
+				6681C87D2CCA3160004401C1 /* ShowMediaViewController.swift in Sources */,
+				66AE5AD22CCF680F000D2F4A /* SettingsViewController.swift in Sources */,
+				6681C87F2CCA32F4004401C1 /* ShowMediaCell.swift in Sources */,
+				66B7CA512CC510540063D97A /* DetailCell.swift in Sources */,
+				665061672CCA8CA300440153 /* UIHelper.swift in Sources */,
+				662E14532CCF7F2B0080DA10 /* ToggleTableViewCell.swift in Sources */,
+				663FE2002CC239D300208A45 /* HomeViewController.swift in Sources */,
+				662FECE62CDCA33400FC435D /* PasscodeViewController.swift in Sources */,
+				665061642CCA850600440153 /* Files+CoreDataProperties.swift in Sources */,
+				66EF1B732CCCF88900A26452 /* ViewController+Ext.swift in Sources */,
+				6691E6E62CC4E6D200A68FA0 /* PersistanceManager.swift in Sources */,
 				663FE1FC2CC239D300208A45 /* AppDelegate.swift in Sources */,
+				66C54FE32CCE4D480083060B /* LockScreenViewController.swift in Sources */,
 				663FE1FE2CC239D300208A45 /* SceneDelegate.swift in Sources */,
+				66B7CA4F2CC50D640063D97A /* DetailViewController.swift in Sources */,
+				665061602CCA83CB00440153 /* Folder+CoreDataProperties.swift in Sources */,
+				665061632CCA850600440153 /* Files+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,11 +447,16 @@
 				DEVELOPMENT_TEAM = H6R64HXYT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Lock-Folder-App/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "access for camera....";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Authentication required to use this feature.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to the photo library to select photos and videos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +464,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zohairali.Lock-Folder-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -327,11 +484,16 @@
 				DEVELOPMENT_TEAM = H6R64HXYT5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Lock-Folder-App/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "access for camera....";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Authentication required to use this feature.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to the photo library to select photos and videos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +501,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zohairali.Lock-Folder-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
