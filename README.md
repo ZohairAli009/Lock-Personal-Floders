@@ -31,10 +31,11 @@ Built with **Swift** and **UIKit**, the app focuses on privacy, local data secur
 ---   
 
 ## 🖼️ Screenshots
-<p align="center">
-  <img src="Assets/Home.PNG" width="200" align="left"/>
-  <img src="Assets/Folder.PNG" width="200" align="left"/>
-  <img src="Assets/New.PNG" width="200" align="left"/>
-  <img src="Assets/Files.PNG" width="200" align="left"/>
+<p align="left">
+  <img src="Assets/Home.PNG" width="200"/>
+  <img src="Assets/Folder.PNG" width="200"/>
+  <img src="Assets/New.PNG" width="200"/>
+  <br>
+  <img src="Assets/Files.PNG" width="200"/>
 </p>
 
