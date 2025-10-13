@@ -23,13 +23,6 @@ Built with **Swift** and **UIKit**, the app focuses on privacy, local data secur
 
 ---
 
-## ⚙️ Setup
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ZohairAli009/Lock-Personal-Floders.git
-
----   
-
 ## 🖼️ Screenshots
 <p align="left">
   <img src="Assets/Home.PNG" width="200"/>
